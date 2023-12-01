@@ -1,0 +1,88 @@
+CRITICAL - 2022-11-15 12:36:18 --> file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+', 'APPPATH\\Controllers\\Home.php', 27)
+ 2 APPPATH\Controllers\Home.php(27): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 12:36:34 --> file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+', 'APPPATH\\Controllers\\Home.php', 27)
+ 2 APPPATH\Controllers\Home.php(27): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 12:36:37 --> file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+', 'APPPATH\\Controllers\\Home.php', 27)
+ 2 APPPATH\Controllers\Home.php(27): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 12:36:54 --> file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+', 'APPPATH\\Controllers\\Home.php', 27)
+ 2 APPPATH\Controllers\Home.php(27): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 12:36:57 --> file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+', 'APPPATH\\Controllers\\Home.php', 27)
+ 2 APPPATH\Controllers\Home.php(27): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 12:37:03 --> file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+', 'APPPATH\\Controllers\\Home.php', 27)
+ 2 APPPATH\Controllers\Home.php(27): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 12:37:43 --> file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+', 'APPPATH\\Controllers\\Home.php', 27)
+ 2 APPPATH\Controllers\Home.php(27): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-15 13:42:45 --> file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15): Failed to open stream: HTTP request failed! HTTP/1.1 521 
+', 'APPPATH\\Controllers\\Home.php', 27)
+ 2 APPPATH\Controllers\Home.php(27): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0710/2022/11/15')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
