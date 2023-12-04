@@ -130,6 +130,7 @@ class Home extends BaseController
 
     public function KirimDonasi()
     {
+        var_dump($this->request->getPost());
         if ($this->validate([
             'bukti' => [
                 'label' => 'Bukti Transfer',
@@ -155,6 +156,59 @@ class Home extends BaseController
             ];
             $bukti->move('bukti', $nama_file);
             $this->ModelHome->InsertDonasi($data);
+            if ($this->request->getPost('jenis_donasi') == "ZakatFitrah"){
+                $sosial = [
+                    'tanggal' => date('Y-m-d'),
+                    'ket' =>$this->request->getPost('nama_pengirim'),
+                    'kas_masuk' => $this->request->getPost('jumlah'),
+                    'kas_keluar' => 0,
+                    'status' => 'Masuk',
+                ];
+                $this->ModelKasSosial->InsertData($sosial);
+                session()->setFlashdata('pesan', 'Terima Kasih ! Bukti Transaksi Sudah Dikirim !!!');
+                return redirect()->to(base_url('Home/Donasi'));
+            }elseif($this->request->getPost('jenis_donasi') == "ZakatMal"){
+                $mal = [
+                    'tanggal' => date('Y-m-d'),
+                    'ket' =>$this->request->getPost('nama_pengirim'),
+                    'kas_masuk' => $this->request->getPost('jumlah'),
+                    'kas_keluar' => 0,
+                    'status' => 'Masuk',
+                    ];
+                    $this->ModelKasMal->InsertData($mal);
+                    session()->setFlashdata('pesan', 'Terima Kasih ! Bukti Transaksi Sudah Dikirim !!!');
+                return redirect()->to(base_url('Home/Donasi'));
+            }elseif($this->request->getPost('jenis_donasi') == "ZakatPenghasilan"){
+                $penghasilan = [
+                    'tanggal' => date('Y-m-d'),
+                    'ket' =>$this->request->getPost('nama_pengirim'),
+                    'kas_masuk' => $this->request->getPost('jumlah'),
+                    'kas_keluar' => 0,
+                    'status' => 'Masuk',
+                ];
+                $this->ModelKasPenghasilan->InsertData($penghasilan);
+                session()->setFlashdata('pesan', 'Terima Kasih ! Bukti Transaksi Sudah Dikirim !!!');
+                return redirect()->to(base_url('Home/Donasi'));
+            }elseif($this->request->getPost('jenis_donasi') == "Masjid"){
+                $masjid = [
+                    'tanggal' => date('Y-m-d'),
+                    'ket' =>$this->request->getPost('nama_pengirim'),
+                    'kas_masuk' => $this->request->getPost('jumlah'),
+                    'kas_keluar' => 0,
+                    'status' => 'Masuk',
+                ];
+                $this->ModelKasMasjid->InsertData($masjid);
+                session()->setFlashdata('pesan', 'Terima Kasih ! Bukti Transaksi Sudah Dikirim !!!');
+                return redirect()->to(base_url('Home/Donasi'));
+            }else{
+                return 0;
+            }
+            
+           
+            
+           
+            
+
             session()->setFlashdata('pesan', 'Terima Kasih ! Bukti Transaksi Sudah Dikirim !!!');
             return redirect()->to(base_url('Home/Donasi'));
         } else {
