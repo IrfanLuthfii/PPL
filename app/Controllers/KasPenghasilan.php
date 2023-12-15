@@ -36,6 +36,7 @@ class KasPenghasilan extends BaseController
             'menu' => 'kas-zakat-penghasilan',
             'submenu' => 'kas-masuk',
             'page' => 'kas-zakat-penghasilan/v_kas_zakatpenghasilan_masuk',
+            'all' => $this->ModelKasPenghasilan->getTotalKasMasuk(),
             'kas' => $this->ModelKasPenghasilan->AllDataKasMasuk(),
         ];
         return view('v_template_admin', $data);
@@ -69,18 +70,38 @@ class KasPenghasilan extends BaseController
     }
 
     public function InsertKasKeluar()
-    {
+    {if ($this->validate([
+            
+        'bukti' => [
+            'label' => 'Bukti Transfer',
+            'rules' => 'uploaded[bukti]|max_size[bukti,15000]|mime_in[bukti,image/png,image/jpg,image/jpeg]',
+            'errors' => [
+                'uploaded' => '{field} Belum Di Pilih !',
+                'max_size' => '{field} Max 15000 KB !',
+                'mime_in' => 'Format {field} Wajib JPG, PNG JPEG',
+            ]
+        ],
+    ])){
+       
+        $bukti = $this->request->getFile('bukti');
+        
+        $nama_file = $bukti->getRandomName();
+        $bukti->move('bukti', $nama_file);
+     
         $data = [
             'tanggal' => $this->request->getPost('tanggal'),
             'ket' => $this->request->getPost('ket'),
             'kas_masuk' => 0,
             'kas_keluar' => $this->request->getPost('kas_keluar'),
             'status' => 'Keluar',
-        ];
+        
+        'bukti' => $nama_file,
+    ];
+       
         $this->ModelKasPenghasilan->InsertData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Ditambahkan !!');
         return redirect()->to(base_url('KasPenghasilan/KasKeluar'));
-    }
+    }}
 
     public function UpdateKasMasuk($id_kas_zakatpenghasilan)
     {
@@ -89,6 +110,7 @@ class KasPenghasilan extends BaseController
             'tanggal' => $this->request->getPost('tanggal'),
             'ket' => $this->request->getPost('ket'),
             'kas_masuk' => $this->request->getPost('kas_masuk'),
+            'validasi' => $this->request->getPost('validasi')
         ];
         $this->ModelKasPenghasilan->UpdateData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Diupdate !!');

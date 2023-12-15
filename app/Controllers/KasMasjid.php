@@ -12,7 +12,7 @@ class KasMasjid extends BaseController
     public function __construct()
     {
         $this->ModelAdmin = new ModelAdmin();
-        $this->ModelKasMasjid = new ModelKasMasjid;
+        $this->ModelKasMasjid = new ModelKasMasjid();
     }
 
     public function index()
@@ -36,6 +36,7 @@ class KasMasjid extends BaseController
             'menu' => 'kas-masjid',
             'submenu' => 'kas-masuk',
             'page' => 'kas-masjid/v_kas_masjid_masuk',
+            'all' => $this->ModelKasMasjid->getTotalKasMasuk(),
             'kas' => $this->ModelKasMasjid->AllDataKasMasuk(),
         ];
         return view('v_template_admin', $data);
@@ -69,18 +70,43 @@ class KasMasjid extends BaseController
     }
 
     public function InsertKasKeluar()
-    {
-        $data = [
-            'tanggal' => $this->request->getPost('tanggal'),
-            'ket' => $this->request->getPost('ket'),
-            'kas_masuk' => 0,
-            'kas_keluar' => $this->request->getPost('kas_keluar'),
-            'status' => 'Keluar',
-        ];
-        $this->ModelKasMasjid->InsertData($data);
-        session()->setFlashdata('pesan', 'Data Berhasil Ditambahkan !!');
+    {   //batas atas
+    
+        // var_dump($this->request->getPost()); 
+        
+         if ($this->validate([
+            
+             'bukti' => [
+                 'label' => 'Bukti Transfer',
+                 'rules' => 'uploaded[bukti]|max_size[bukti,15000]|mime_in[bukti,image/png,image/jpg,image/jpeg]',
+                 'errors' => [
+                     'uploaded' => '{field} Belum Di Pilih !',
+                     'max_size' => '{field} Max 15000 KB !',
+                     'mime_in' => 'Format {field} Wajib JPG, PNG JPEG',
+                 ]
+             ],
+         ])){
+            
+             $bukti = $this->request->getFile('bukti');
+             
+             $nama_file = $bukti->getRandomName();
+             $bukti->move('bukti', $nama_file);
+          
+         $data = [
+             'tanggal' => $this->request->getPost('tanggal'),
+             'ket' => $this->request->getPost('ket'),
+             'kas_masuk' => 0,
+             'kas_keluar' => $this->request->getPost('kas_keluar'),
+             'status' => 'Keluar',
+             'bukti' => $nama_file,
+         ];
+        
+         
+         $this->ModelKasMasjid->InsertData($data);
+         echo 'After InsertData';
+         session()->setFlashdata('pesan', 'Terima Kasih ! Bukti Transaksi Sudah Dikirim !!!');
         return redirect()->to(base_url('KasMasjid/KasKeluar'));
-    }
+    }}
 
     public function UpdateKasMasuk($id_kas_masjid)
     {
@@ -89,6 +115,7 @@ class KasMasjid extends BaseController
             'tanggal' => $this->request->getPost('tanggal'),
             'ket' => $this->request->getPost('ket'),
             'kas_masuk' => $this->request->getPost('kas_masuk'),
+            'validasi' => $this->request->getPost('validasi')
         ];
         $this->ModelKasMasjid->UpdateData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Diupdate !!');

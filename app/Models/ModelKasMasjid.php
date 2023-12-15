@@ -5,7 +5,11 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class ModelKasMasjid extends Model
-{
+{   
+    protected $table = 'tbl_kas_masjid';
+    protected $primaryKey = 'id_kas';
+    protected $allowedFields = ['filename', 'description'];
+
     public function AllData()
     {
         return $this->db->table('tbl_kas_masjid')
@@ -16,7 +20,14 @@ class ModelKasMasjid extends Model
     {
         return $this->db->table('tbl_kas_masjid')
             ->where('status', 'Masuk')
+         
             ->get()->getResultArray();
+    }
+    
+    public function getTotalKasMasuk()
+    {
+        return $this->db->table('tbl_kas_masjid')
+        ->selectSum('kas_masuk')->where('validasi', 'ya')->get()->getRowArray();
     }
 
     public function AllDataKasKeluar()

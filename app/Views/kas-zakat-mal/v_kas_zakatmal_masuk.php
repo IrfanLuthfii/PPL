@@ -8,12 +8,14 @@
         }
     }
     ?>
+    <div class="row align-items-start">
+        <div class="col">
+             <div class="alert alert-success alert-dismissible">
+                <h5><i class="fas fa-money-bill-wave"></i></i> Total Pemasukan Kas Zakat Mal</h5>
+                <h3>Rp. <?= number_format($all['kas_masuk'], 0) ?></h3>
+            </div>
+        </div>
 
-
-    <div class="alert alert-success alert-dismissible">
-        <h5><i class="fas fa-money-bill-wave"></i></i> Total Pemasukan Kas Zakat Mal</h5>
-        <h3>Rp. <?= number_format(array_sum($pemasukan), 0) ?></h3>
-    </div>
 </div>
 
 <div class="col-md-12">
@@ -44,6 +46,7 @@
                         <th width="100px">Tanggal</th>
                         <th>Muzzaki</th>
                         <th>Jumlah</th>
+                        <th>validasi</th>
                         <th>Aksi</th>
                     </tr>
                 </thead>
@@ -55,6 +58,7 @@
                             <td><?= $value['tanggal'] ?></td>
                             <td><?= $value['ket'] ?></td>
                             <td class="text-right">Rp. <?= number_format($value['kas_masuk'], 0) ?></td>
+                            <td class="text-right"><?= $value['validasi'] ?></td>
                             <td class="text-center">
                                 <button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modal-edit<?= $value['id_kas_zakatmal'] ?>"><i class="fas fa-pencil-alt"></i>
                                 </button>
@@ -130,6 +134,13 @@
                         <label for="">Jumlah(Rp.)</label>
                         <input type="number" min="0" name="kas_masuk" value="<?= $value['kas_masuk'] ?>" class="form-control" required>
                     </div>
+                    <div class="form-group">
+                        <label for="">validasi</label>
+                        <select class="form-control" name="validasi" id="">
+                        
+                        <option value="ya">tervalidasi</option>
+                            <option value="tidak">tidak tervalidasi</option>
+                            </select>
                 </div>
                 <div class="modal-footer justify-content-between">
                     <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>

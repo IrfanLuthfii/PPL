@@ -162,6 +162,7 @@ class Home extends BaseController
                     'ket' =>$this->request->getPost('nama_pengirim'),
                     'kas_masuk' => $this->request->getPost('jumlah'),
                     'kas_keluar' => 0,
+                    'validasi' => 'tidak',
                     'status' => 'Masuk',
                 ];
                 $this->ModelKasSosial->InsertData($sosial);
@@ -173,6 +174,7 @@ class Home extends BaseController
                     'ket' =>$this->request->getPost('nama_pengirim'),
                     'kas_masuk' => $this->request->getPost('jumlah'),
                     'kas_keluar' => 0,
+                    'validasi' => 'tidak',
                     'status' => 'Masuk',
                     ];
                     $this->ModelKasMal->InsertData($mal);
@@ -184,6 +186,7 @@ class Home extends BaseController
                     'ket' =>$this->request->getPost('nama_pengirim'),
                     'kas_masuk' => $this->request->getPost('jumlah'),
                     'kas_keluar' => 0,
+                    'validasi' => 'tidak',
                     'status' => 'Masuk',
                 ];
                 $this->ModelKasPenghasilan->InsertData($penghasilan);
@@ -195,6 +198,7 @@ class Home extends BaseController
                     'ket' =>$this->request->getPost('nama_pengirim'),
                     'kas_masuk' => $this->request->getPost('jumlah'),
                     'kas_keluar' => 0,
+                    'validasi' => 'tidak',
                     'status' => 'Masuk',
                 ];
                 $this->ModelKasMasjid->InsertData($masjid);

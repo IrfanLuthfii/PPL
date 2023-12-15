@@ -12,6 +12,12 @@ class ModelKasPenghasilan extends Model
             ->get()->getResultArray();
     }
 
+    public function getTotalKasMasuk()
+    {
+        return $this->db->table('tbl_kas_zakatpenghasilan')
+        ->selectSum('kas_masuk')->where('validasi', 'ya')->get()->getRowArray();
+    }
+
     public function AllDataKasMasuk()
     {
         return $this->db->table('tbl_kas_zakatpenghasilan')

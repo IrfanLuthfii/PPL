@@ -21,22 +21,26 @@ class Rekening extends BaseController
             'submenu' => '',
             'page' => 'v_rekening',
             'rek' => $this->ModelRekening->AllData(),
+            'kode' => $this->ModelRekening->getKode()
         ];
         return view('v_template_admin', $data);
     }
-
     public function InsertData()
     {
+        $kd = $this->request->getPost('kode');
+        $no =  $this->request->getPost('no_rek');
+    
         $data = [
-            'nama_bank' => $this->request->getPost('nama_bank'),
-            'no_rek' => $this->request->getPost('no_rek'),
+            'kode' => $kd,
+            'no_rek' => $no,
             'atas_nama' => $this->request->getPost('atas_nama'),
         ];
+    
         $this->ModelRekening->InsertData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Ditambahkan !!');
         return redirect()->to(base_url('Rekening'));
     }
-
+    
     public function UpdateData($id_rekening)
     {
         $data = [

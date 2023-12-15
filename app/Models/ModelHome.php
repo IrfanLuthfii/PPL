@@ -26,24 +26,28 @@ class ModelHome extends Model
     public function AllDataKasMasjid()
     {
         return $this->db->table('tbl_kas_masjid')
+        ->where('validasi','ya')
         ->get()->getResultArray();
     }
 
     public function AllDataKasSosial()
     {
         return $this->db->table('tbl_kas_sosial')
+        ->where('validasi','ya')
         ->get()->getResultArray();
     }
 
     public function AllDataKasZakatMal()
     {
         return $this->db->table('tbl_kas_zakatmal')
+        ->where('validasi','ya')
         ->get()->getResultArray();
     }
 
     public function AllDataKasZakatPenghasilan()
     {
         return $this->db->table('tbl_kas_zakatpenghasilan')
+        ->where('validasi','ya')
         ->get()->getResultArray();
     }
 

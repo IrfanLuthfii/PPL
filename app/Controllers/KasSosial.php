@@ -23,6 +23,7 @@ class KasSosial extends BaseController
             'menu' => 'kas-sosial',
             'submenu' => 'rekap-kas-sosial',
             'page' => 'kas-sosial/v_rekap_kas_sosial',
+            
             'kas' => $this->ModelKasSosial->AllData(),
         ];
         return view('v_template_admin', $data);
@@ -36,6 +37,7 @@ class KasSosial extends BaseController
             'menu' => 'kas-sosial',
             'submenu' => 'kas-sosial-masuk',
             'page' => 'kas-sosial/v_kas_sosial_masuk',
+            'all' => $this->ModelKasSosial->getTotalKasMasuk(),
             'kas' => $this->ModelKasSosial->AllDataKasMasuk(),
         ];
         return view('v_template_admin', $data);
@@ -69,18 +71,39 @@ class KasSosial extends BaseController
     }
 
     public function InsertKasKeluar()
-    {
+    {   if ($this->validate([
+            
+        'bukti' => [
+            'label' => 'Bukti Transfer',
+            'rules' => 'uploaded[bukti]|max_size[bukti,15000]|mime_in[bukti,image/png,image/jpg,image/jpeg]',
+            'errors' => [
+                'uploaded' => '{field} Belum Di Pilih !',
+                'max_size' => '{field} Max 15000 KB !',
+                'mime_in' => 'Format {field} Wajib JPG, PNG JPEG',
+            ]
+        ],
+    ])){
+       
+        $bukti = $this->request->getFile('bukti');
+        
+        $nama_file = $bukti->getRandomName();
+        $bukti->move('bukti', $nama_file);
+     
         $data = [
             'tanggal' => $this->request->getPost('tanggal'),
             'ket' => $this->request->getPost('ket'),
             'kas_masuk' => 0,
             'kas_keluar' => $this->request->getPost('kas_keluar'),
             'status' => 'Keluar',
-        ];
+        
+        'bukti' => $nama_file,
+    ];
+
+        
         $this->ModelKasSosial->InsertData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Ditambahkan !!');
         return redirect()->to(base_url('KasSosial/KasKeluar'));
-    }
+    }}
 
     public function UpdateKasMasuk($id_kas_sosial)
     {
@@ -89,6 +112,7 @@ class KasSosial extends BaseController
             'tanggal' => $this->request->getPost('tanggal'),
             'ket' => $this->request->getPost('ket'),
             'kas_masuk' => $this->request->getPost('kas_masuk'),
+            'validasi' => $this->request->getPost('validasi')
         ];
         $this->ModelKasSosial->UpdateData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Diupdate !!');

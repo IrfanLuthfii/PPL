@@ -293,14 +293,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             </a>
                         </li>
 
-                        <li class="nav-item" >
+                        <!-- <li class="nav-item" >
                             <a href="<?= base_url('User') ?>" class="nav-link" <?= $menu == 'user' ? 'style="background-color:green"' : '' ?> >
                                 <i class="nav-icon fas fa-users" style="color: white"></i>
                                 <p style="color:white">
                                     User
                                 </p>
                             </a>
-                        </li>
+                        </li> -->
 
                         <li class="nav-item" >
                             <a href="<?= base_url('Admin/Setting') ?>" class="nav-link" <?= $menu == 'setting' ? 'style="background-color:green"' : '' ?> >

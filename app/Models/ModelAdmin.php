@@ -64,7 +64,7 @@ class ModelAdmin extends Model
             ->select('tbl_donasi.bukti')
             ->select('tbl_donasi.jenis_donasi')
             ->select('tbl_rekening.no_rek as no_rek_tujuan')
-            ->select('tbl_rekening.nama_bank as nama_bank_tujuan')
+            
             ->orderBy('id_donasi', 'DESC')
             ->get()->getResultArray();
     }

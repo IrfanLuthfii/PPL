@@ -37,8 +37,8 @@
                                 <i class="fas fa-money-check fa-3x text-green"></i>
                             </td>
                             <td>
-                                <h4><b><?= $value['nama_bank'] ?></b></h4>
-                                <h5><?= $value['no_rek'] ?><br></h5>
+                                <h3><strong><?=$value['nama_bank']?></strong></h3>
+                                <h5><?=$value['kode']?>-<?= $value['no_rek'] ?><br></h5>
                                 <h5>a.n : <?= $value['atas_nama'] ?></h5>
                             </td>
                             <td>
@@ -70,10 +70,10 @@
             <div class="modal-body">
                 <?php echo form_open('Rekening/InsertData') ?>
 
-                <div class="form-group">
+                <!-- <div class="form-group">
                     <label>Nama Bank</label>
                     <input class="form-control" name="nama_bank" required>
-                </div>
+                </div> -->
                 <div class="form-group">
                     <label>No Rekening</label>
                     <input class="form-control" name="no_rek" required>
@@ -81,6 +81,16 @@
                 <div class="form-group">
                     <label>Atas Nama</label>
                     <input class="form-control" name="atas_nama" required>
+                </div>
+                <div class="form-group">
+                    <label>Kode Bank</label>
+                    <select name="kode" class="form-control">
+                        <?php
+                        foreach($kode as $kd):
+                        ?>
+                            <option value="<?=$kd['id']?>"><?= $kd['kode']?>--<?=$kd['nama_bank']?></option>
+                        <?php endforeach?>
+                    </select>
                 </div>
             </div>
             <div class="modal-footer justify-content-between">
@@ -109,11 +119,7 @@
                 </div>
                 <div class="modal-body">
                     <?php echo form_open('Rekening/UpdateData/' . $value['id_rekening']) ?>
-
-                    <div class="form-group">
-                        <label>Nama Bank</label>
-                        <input class="form-control" name="nama_bank" value="<?= $value['nama_bank']  ?>" required>
-                    </div>
+<!--  -->
                     <div class="form-group">
                         <label>No Rekening</label>
                         <input class="form-control" name="no_rek" value="<?= $value['no_rek']  ?>" required>

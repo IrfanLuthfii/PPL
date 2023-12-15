@@ -34,7 +34,7 @@
                             <td><?= $no++ ?></td>
                             <td>
                                 <p>
-                                <h5><b><?= $value['nama_bank_tujuan'] ?></b></h5>
+               
                                 <?= $value['no_rek_tujuan'] ?> <br>
                                 </p>
                             </td>

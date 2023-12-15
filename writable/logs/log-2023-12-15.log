@@ -1,0 +1,670 @@
+CRITICAL - 2023-12-15 18:55:07 --> Undefined array key "nama_bank"
+in APPPATH\Views\v_rekening.php on line 40.
+ 1 APPPATH\Views\v_rekening.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bank"', 'APPPATH\\Views\\v_rekening.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(343): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 18:55:38 --> Undefined array key "nama_bank"
+in APPPATH\Views\v_rekening.php on line 40.
+ 1 APPPATH\Views\v_rekening.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bank"', 'APPPATH\\Views\\v_rekening.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(343): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 18:55:50 --> Undefined array key "nama_bank"
+in APPPATH\Views\v_rekening.php on line 40.
+ 1 APPPATH\Views\v_rekening.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bank"', 'APPPATH\\Views\\v_rekening.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(343): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 18:56:10 --> Undefined array key "nama_bank"
+in APPPATH\Views\v_rekening.php on line 125.
+ 1 APPPATH\Views\v_rekening.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bank"', 'APPPATH\\Views\\v_rekening.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(343): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 18:56:36 --> Undefined array key "nama_bank"
+in APPPATH\Views\v_rekening.php on line 125.
+ 1 APPPATH\Views\v_rekening.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bank"', 'APPPATH\\Views\\v_rekening.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(343): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 19:01:54 --> A non-numeric value encountered
+in APPPATH\Controllers\Rekening.php on line 34.
+ 1 APPPATH\Controllers\Rekening.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Rekening.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->InsertData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 19:19:49 --> Undefined array key "koderekening.kode"
+in APPPATH\Views\v_rekening.php on line 41.
+ 1 APPPATH\Views\v_rekening.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "koderekening.kode"', 'APPPATH\\Views\\v_rekening.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(343): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 19:19:59 --> Undefined array key "kode_rekening.kode"
+in APPPATH\Views\v_rekening.php on line 41.
+ 1 APPPATH\Views\v_rekening.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_rekening.kode"', 'APPPATH\\Views\\v_rekening.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(343): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 19:34:20 --> Undefined variable $all
+in APPPATH\Views\kas-sosial\v_kas_sosial_masuk.php on line 15.
+ 1 APPPATH\Views\kas-sosial\v_kas_sosial_masuk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all', 'APPPATH\\Views\\kas-sosial\\v_kas_sosial_masuk.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-sosial\\v_kas_sosial_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kas-sosial/v_kas_sosial_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(343): view('kas-sosial/v_kas_sosial_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasSosial.php(42): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasSosial->KasMasuk()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 19:36:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ModelKasSosial.php(16): CodeIgniter\Model->__call('selectSum', [...])
+ 4 APPPATH\Controllers\KasSosial.php(40): App\Models\ModelKasSosial->getTotalKasMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasSosial->KasMasuk()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 19:38:07 --> number_format(): Argument #1 ($num) must be of type float, array given
+in APPPATH\Views\kas-sosial\v_kas_sosial_masuk.php on line 15.
+ 1 APPPATH\Views\kas-sosial\v_kas_sosial_masuk.php(15): number_format([...], 0)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-sosial\\v_kas_sosial_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kas-sosial/v_kas_sosial_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(343): view('kas-sosial/v_kas_sosial_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasSosial.php(43): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasSosial->KasMasuk()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:54:38 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:54:38 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:54:45 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:54:45 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:54:49 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:54:49 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:12 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:12 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:12 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:12 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:13 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:13 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:13 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:13 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:26 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:26 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:27 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:27 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:27 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:27 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:28 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:28 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:28 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:28 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:28 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:28 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-15 19:56:28 --> mysqli_sql_exception: Unknown column 'tbl_rekening.nama_bank' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-15 19:56:28 --> Unknown column 'tbl_rekening.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`tgl`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `id_donasi` DESC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(69): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(77): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

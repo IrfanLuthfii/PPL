@@ -1,0 +1,105 @@
+CRITICAL - 2023-12-14 17:05:53 --> Bukti Transfer is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 316.
+ 1 SYSTEMPATH\Validation\Validation.php(316): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Bukti Transfer')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('FCPATH\\bukti', 'FCPATH\\bukti', 'bukti4.jpg', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\KasMasjid.php(76): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:33:25 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\KasMasjid.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:40:09 --> Undefined variable $bukti
+in APPPATH\Controllers\KasMasjid.php on line 75.
+ 1 APPPATH\Controllers\KasMasjid.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bukti', 'APPPATH\\Controllers\\KasMasjid.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:44:55 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\KasMasjid.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:46:03 --> Call to a member function getName() on null
+in APPPATH\Controllers\KasMasjid.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:46:48 --> Call to a member function getName() on null
+in APPPATH\Controllers\KasMasjid.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:49:57 --> Call to a member function isValid() on null
+in APPPATH\Controllers\KasMasjid.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:50:00 --> Call to a member function isValid() on null
+in APPPATH\Controllers\KasMasjid.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:50:07 --> Call to a member function isValid() on null
+in APPPATH\Controllers\KasMasjid.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:54:36 --> Call to a member function isValid() on null
+in APPPATH\Controllers\KasMasjid.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 17:54:42 --> Call to a member function isValid() on null
+in APPPATH\Controllers\KasMasjid.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 18:03:10 --> Undefined property: App\Controllers\KasMasjid::$ModelkasMasjid
+in APPPATH\Controllers\KasMasjid.php on line 104.
+ 1 APPPATH\Controllers\KasMasjid.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\KasMasjid::$ModelkasMasjid', 'APPPATH\\Controllers\\KasMasjid.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 18:06:19 --> Class "App\Controllers\kas" not found
+in APPPATH\Controllers\KasMasjid.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 18:07:21 --> Undefined property: App\Controllers\KasMasjid::$ModelkasMasjid
+in APPPATH\Controllers\KasMasjid.php on line 104.
+ 1 APPPATH\Controllers\KasMasjid.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\KasMasjid::$ModelkasMasjid', 'APPPATH\\Controllers\\KasMasjid.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 18:10:12 --> Undefined property: App\Controllers\KasMasjid::$ModelkasMasjid
+in APPPATH\Controllers\KasMasjid.php on line 104.
+ 1 APPPATH\Controllers\KasMasjid.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\KasMasjid::$ModelkasMasjid', 'APPPATH\\Controllers\\KasMasjid.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 18:11:43 --> Undefined property: App\Controllers\KasMasjid::$ModelkasMasjid
+in APPPATH\Controllers\KasMasjid.php on line 104.
+ 1 APPPATH\Controllers\KasMasjid.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\KasMasjid::$ModelkasMasjid', 'APPPATH\\Controllers\\KasMasjid.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->InsertKasKeluar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

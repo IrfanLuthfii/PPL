@@ -43,6 +43,7 @@
                         <th width="100px">Tanggal</th>
                         <th>Keterangan</th>
                         <th>Jumlah</th>
+                        <th>Bukti</th>
                         <th>Aksi</th>
                     </tr>
                 </thead>
@@ -54,6 +55,7 @@
                             <td><?= $value['tanggal'] ?></td>
                             <td><?= $value['ket'] ?></td>
                             <td class="text-right">Rp. <?= number_format($value['kas_keluar'], 0) ?></td>
+                            <td><img src="<?=base_url('/bukti/'.$value['bukti'] )?>" width="100px" height="auto" onclick="toggleImageSize(this)"></td>
                             <td>
                                 <button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modal-edit<?= $value['id_kas_masjid'] ?>"><i class="fas fa-pencil-alt"></i>
                                 </button>
@@ -79,7 +81,9 @@
                 </button>
             </div>
             <div class="modal-body">
-                <?php echo form_open('KasMasjid/InsertKasKeluar') ?>
+
+                <!-- <?php echo form_open('KasMasjid/InsertKasKeluar') ?> -->
+                <form method="post" action="<?= base_url('KasMasjid/InsertKasKeluar')?>" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="">Tanggal</label>
                     <input type="date" name="tanggal" class="form-control" required>
@@ -92,12 +96,17 @@
                     <label for="">Jumlah(Rp.)</label>
                     <input type="number" min="0" value="0" name="kas_keluar" class="form-control" required>
                 </div>
+                <div class="form-group">
+                    <label for="">Masukkan bukti</label>
+                    <input type="file" name="bukti" accept="image/*" class="form-control" required>
+                </div>
             </div>
             <div class="modal-footer justify-content-between">
                 <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
                 <button type="submit" class="btn btn-danger">Simpan</button>
-                <?php echo form_close() ?>
+                    
             </div>
+            </form>
         </div>
         <!-- /.modal-content -->
     </div>
@@ -167,3 +176,30 @@
         <!-- /.modal-dialog -->
     </div>
 <?php } ?>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    function toggleImageSize(img) {
+        // Check if the 'enlarged' class is present
+        if (!$(img).hasClass('enlarged')) {
+            // First click, make it larger with a dark background
+            $(img).addClass('enlarged');
+       
+            $(img).animate({ width: '300px', height: 'auto' }, 300);
+        } else {
+            // Second click, revert to the original size
+            $(img).removeClass('enlarged');
+            $(img).animate({ width: '100px', height: 'auto' }, 300);
+        }
+    }
+</script>
+<style>
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
+    }
+</style>

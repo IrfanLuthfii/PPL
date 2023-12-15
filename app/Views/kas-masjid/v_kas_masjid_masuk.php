@@ -12,17 +12,16 @@
         <div class="col">
             <div class="alert alert-success alert-dismissible">
                 <h5><i class="fas fa-money-bill-wave"></i></i> Total Pemasukan Kas Masjid</h5>
-                <h3>Rp. <?= number_format(array_sum($pemasukan), 0) ?></h3>
+                <h3>Rp. <?= number_format($all['kas_masuk'], 0) ?></h3>
             </div>
         </div>
-
 </div>
 
 <div class="col-md-12">
     <div class="card card-success">
 
         <div class="card-header">
-            <h3 class="card-title">Data <?= $judul ?></h3>
+            <h3 class="card-title">Data Kas Masuk<?= $judul ?></h3>
             <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#modal-tambah"><i class="fas fa-plus"></i> Tambah
                 </button>
@@ -46,6 +45,7 @@
                         <th width="100px">Tanggal</th>
                         <th>Keterangan</th>
                         <th>Jumlah</th>
+                        <th>validasi</th>
                         <th>Aksi</th>
                     </tr>
                 </thead>
@@ -57,6 +57,7 @@
                             <td><?= $value['tanggal'] ?></td>
                             <td><?= $value['ket'] ?></td>
                             <td class="text-right">Rp. <?= number_format($value['kas_masuk'], 0) ?></td>
+                            <td class="text-right"><?= $value['validasi'] ?></td>
                             <td class="text-center">
                                 <button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modal-edit<?= $value['id_kas_masjid'] ?>"><i class="fas fa-pencil-alt"></i>
                                 </button>
@@ -119,6 +120,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
+                    <form action=""></form>
                     <?php echo form_open('KasMasjid/UpdateKasMasuk/' . $value['id_kas_masjid']) ?>
                     <div class="form-group">
                         <label for="">Tanggal</label>
@@ -131,6 +133,14 @@
                     <div class="form-group">
                         <label for="">Jumlah(Rp.)</label>
                         <input type="number" min="0" name="kas_masuk" value="<?= $value['kas_masuk'] ?>" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">validasi</label>
+                        <select class="form-control" name="validasi" id="">
+                    
+                            <option value="ya">tervalidasi</option>
+                            <option value="tidak">tidak tervalidasi</option>
+                            </select>
                     </div>
                 </div>
                 <div class="modal-footer justify-content-between">
