@@ -11,7 +11,7 @@
 
 
     <div class="alert alert-danger alert-dismissible">
-        <h5><i class="fas fa-money-bill-wave"></i> Total Pengeluaran Kas Zakat</h5>
+        <h5><i class="fas fa-money-bill-wave"></i> Total Pengeluaran Kas Zakat Penghasilan</h5>
         <h3>Rp. <?= number_format(array_sum($pengeluaran), 0) ?></h3>
     </div>
 </div>

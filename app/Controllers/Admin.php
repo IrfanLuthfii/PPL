@@ -41,15 +41,15 @@ class Admin extends BaseController
 
     public function Setting()
     {
-        $url = 'https://api.myquran.com/v1/sholat/kota/semua';
-        $kota = json_decode(file_get_contents($url), true);
+        // $url = 'https://api.myquran.com/v1/sholat/kota/semua';
+        // $kota = json_decode(file_get_contents($url), true);
         $data = [
             'judul' => 'Setting',
             'menu' => 'setting',
             'submenu' => '',
             'page' => 'v_setting',
             'setting' => $this->ModelAdmin->ViewSetting(),
-            'kota' => $kota,
+            // 'kota' => $kota,
         ];
         return view('v_template_admin', $data);
     }

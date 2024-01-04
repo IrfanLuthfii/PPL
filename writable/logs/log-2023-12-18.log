@@ -1,0 +1,80 @@
+CRITICAL - 2023-12-18 16:05:23 --> file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2023/12/18): Failed to open stream: HTTP request failed! HTTP/1.1 522 
+
+in APPPATH\Controllers\Home.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2023/12/18): Failed to open stream: HTTP request failed! HTTP/1.1 522 
+', 'APPPATH\\Controllers\\Home.php', 31)
+ 2 APPPATH\Controllers\Home.php(31): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0710/2023/12/18')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:17:10 --> file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2023/12/18): Failed to open stream: HTTP request failed! HTTP/1.1 522 
+
+in APPPATH\Controllers\Home.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://api.myquran.com/v1/sholat/jadwal/0710/2023/12/18): Failed to open stream: HTTP request failed! HTTP/1.1 522 
+', 'APPPATH\\Controllers\\Home.php', 31)
+ 2 APPPATH\Controllers\Home.php(31): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0710/2023/12/18')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:26:32 --> Undefined variable $waktu
+in APPPATH\Views\v_home.php on line 46.
+ 1 APPPATH\Views\v_home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $waktu', 'APPPATH\\Views\\v_home.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_home', [], true)
+ 5 APPPATH\Views\v_template.php(106): view('v_home')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:27:02 --> Undefined variable $waktu
+in APPPATH\Views\v_home.php on line 46.
+ 1 APPPATH\Views\v_home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $waktu', 'APPPATH\\Views\\v_home.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_home', [], true)
+ 5 APPPATH\Views\v_template.php(106): view('v_home')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:27:38 --> Undefined variable $waktu
+in APPPATH\Views\v_home.php on line 58.
+ 1 APPPATH\Views\v_home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $waktu', 'APPPATH\\Views\\v_home.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_home', [], true)
+ 5 APPPATH\Views\v_template.php(106): view('v_home')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 16:33:01 --> Undefined variable $waktu
+in APPPATH\Views\v_home.php on line 125.
+ 1 APPPATH\Views\v_home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $waktu', 'APPPATH\\Views\\v_home.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_home', [], true)
+ 5 APPPATH\Views\v_template.php(106): view('v_home')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(42): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

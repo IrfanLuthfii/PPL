@@ -37,7 +37,7 @@
                                 <i class="fas fa-money-check fa-3x text-green"></i>
                             </td>
                             <td>
-                                <h3><strong><?=$value['nama_bank']?></strong></h3>
+                               
                                 <h5><?=$value['kode']?>-<?= $value['no_rek'] ?><br></h5>
                                 <h5>a.n : <?= $value['atas_nama'] ?></h5>
                             </td>

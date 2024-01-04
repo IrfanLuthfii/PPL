@@ -110,7 +110,7 @@
 
 <?php foreach ($kas as $key => $value) { ?>
     <!-- /.modal-edit -->
-    <div class="modal fade" id="modal-edit<?= $value['id_kas_zakatpenghasilan'] ?>">
+    <<div class="modal fade" id="modal-edit<?= $value['id_kas_zakatpenghasilan'] ?>">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header  bg-success">
@@ -136,10 +136,11 @@
                     <div class="form-group">
                         <label for="">validasi</label>
                         <select class="form-control" name="validasi" id="">
-                        
-                        <option value="ya">tervalidasi</option>
+                    
+                            <option value="ya">tervalidasi</option>
                             <option value="tidak">tidak tervalidasi</option>
                             </select>
+                    </div>
                 </div>
                 <div class="modal-footer justify-content-between">
                     <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>

@@ -18,6 +18,11 @@ class ModelRekening extends Model
         return $this->db->table('kode_rekening')
         ->get()->getResultArray();
     }
+    public function getKode1($kd){
+        return $this->db->table('tbl_rekening')
+        ->where('kode',$kd)
+        ->get()->getResultArray();
+    }
     public function InsertData($data)
     {
         $this->db->table('tbl_rekening')->insert($data);

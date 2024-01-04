@@ -1,0 +1,67 @@
+CRITICAL - 2024-01-04 21:52:25 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 655.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(655): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(363): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('post', 'https://api.telegram.org/bot6457196603/sendMessage')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(209): CodeIgniter\HTTP\CURLRequest->request('post', 'https://api.telegram.org/bot6457196603/sendMessage', [...])
+ 5 APPPATH\Helpers\TelegramHelper.php(16): CodeIgniter\HTTP\CURLRequest->post('https://api.telegram.org/bot6457196603/sendMessage', [...])
+ 6 APPPATH\Controllers\Home.php(161): App\Helpers\TelegramHelper::sendMessage('6457196603', '-4089032099', 'ada pesan masuk')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->KirimDonasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 21:55:02 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 655.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(655): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(363): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('post', 'https://api.telegram.org/bot6457196603/sendMessage')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(209): CodeIgniter\HTTP\CURLRequest->request('post', 'https://api.telegram.org/bot6457196603/sendMessage', [...])
+ 5 APPPATH\Helpers\TelegramHelper.php(18): CodeIgniter\HTTP\CURLRequest->post('https://api.telegram.org/bot6457196603/sendMessage', [...])
+ 6 APPPATH\Controllers\Home.php(161): App\Helpers\TelegramHelper::sendMessage('6457196603', '-4089032099', 'ada pesan masuk')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->KirimDonasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 21:59:25 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 655.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(655): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(363): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('get', 'https://api.telegram.org/bot6457196603/sendMessage?chat_id=-4089032099&text=hallo+upi&parse_mode=html')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(169): CodeIgniter\HTTP\CURLRequest->request('get', 'https://api.telegram.org/bot6457196603/sendMessage?chat_id=-4089032099&text=hallo+upi&parse_mode=html', [])
+ 5 APPPATH\Controllers\Home.php(166): CodeIgniter\HTTP\CURLRequest->get('https://api.telegram.org/bot6457196603/sendMessage?chat_id=-4089032099&text=hallo+upi&parse_mode=html')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->KirimDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 23:01:03 --> Undefined array key "nama_pengirim%0A"
+in APPPATH\Controllers\Home.php on line 142.
+ 1 APPPATH\Controllers\Home.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengirim%0A"', 'APPPATH\\Controllers\\Home.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->KirimDonasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-04 23:23:52 --> mysqli_sql_exception: Unknown column 'time' in 'field list' in C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\SiMasjid_PPL\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\SiMasjid_PPL\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\SiMasjid_PPL\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\SiMasjid_PPL\app\Models\ModelHome.php(56): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\SiMasjid_PPL\app\Controllers\Home.php(147): App\Models\ModelHome->InsertDonasi(Array)
+#6 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(904): App\Controllers\Home->KirimDonasi()
+#7 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\SiMasjid_PPL\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\SiMasjid_PPL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-04 23:23:52 --> Unknown column 'time' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `tgl`, `time`) VALUES (\'17\', \'Bank BCA\', \'1234-1243-2345-2354\', \'Dodo\', \'342342\', \'Masjid\', \'1704385431_91d1e5fbc7f23795e53b.jpg\', \'2024-01-04\', \'2024-01-04 23:23:51\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `tgl`, `time`) VALUES (\'17\', \'Bank BCA\', \'1234-1243-2345-2354\', \'Dodo\', \'342342\', \'Masjid\', \'1704385431_91d1e5fbc7f23795e53b.jpg\', \'2024-01-04\', \'2024-01-04 23:23:51\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `tgl`, `time`) VALUES (\'17\', \'Bank BCA\', \'1234-1243-2345-2354\', \'Dodo\', \'342342\', \'Masjid\', \'1704385431_91d1e5fbc7f23795e53b.jpg\', \'2024-01-04\', \'2024-01-04 23:23:51\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `tgl`, `time`) VALUES (:id_rekening:, :nama_bank:, :no_rek:, :nama_pengirim:, :jumlah:, :jenis_donasi:, :bukti:, :tgl:, :time:)', [...], false)
+ 5 APPPATH\Models\ModelHome.php(56): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(147): App\Models\ModelHome->InsertDonasi([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->KirimDonasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

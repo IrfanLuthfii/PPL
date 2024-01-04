@@ -43,7 +43,7 @@
 <div class="col-lg-3">
     <div class="card card-outline card-success">
         <div class="card-header">
-            <h3 class="card-title text-success"><b><?= $waktu['data']['lokasi'] ?></b></h3>
+            <h3 class="card-title text-success"><b>Bengkulu</b></h3>
         </div>
         <!-- /.card-header -->
         <div class="card-body p-3">
@@ -56,7 +56,7 @@
                     <div class="product-info">
                         <a class="product-title">Subuh</a>
                         <span class="product-description">
-                            <?= $waktu['data']['jadwal']['subuh'] ?>
+                            04.32
                         </span>
                     </div>
                 </li>
@@ -68,7 +68,7 @@
                     <div class="product-info">
                         <a class="product-title">Dhuha</a>
                         <span class="product-description">
-                            <?= $waktu['data']['jadwal']['dhuha'] ?>
+                            05.57
                         </span>
                     </div>
                 </li>
@@ -80,7 +80,7 @@
                     <div class="product-info">
                         <a class="product-title">Dzuhur</a>
                         <span class="product-description">
-                            <?= $waktu['data']['jadwal']['dzuhur'] ?>
+                            12.07
                         </span>
                     </div>
                 </li>
@@ -92,7 +92,7 @@
                     <div class="product-info">
                         <a class="product-title">Ashar</a>
                         <span class="product-description">
-                            <?= $waktu['data']['jadwal']['ashar'] ?>
+                            15.34
                         </span>
                     </div>
                 </li>
@@ -104,7 +104,7 @@
                     <div class="product-info">
                         <a class="product-title">Maghrib</a>
                         <span class="product-description">
-                            <?= $waktu['data']['jadwal']['maghrib'] ?>
+                            18.18
                         </span>
                     </div>
                 </li>
@@ -116,13 +116,13 @@
                     <div class="product-info">
                         <a class="product-title">Isya</a>
                         <span class="product-description">
-                            <?= $waktu['data']['jadwal']['isya'] ?>
+                            19.33
                         </span>
                     </div>
                 </li>
             </ul>
             <div class="text-center">
-                <b class="text-success"><?= $waktu['data']['jadwal']['tanggal'] ?></b>
+                
             </div>
         </div>
         <!-- /.card-body -->

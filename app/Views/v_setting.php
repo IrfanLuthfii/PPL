@@ -18,12 +18,6 @@
                 <input name="nama_masjid" value="<?= $setting['nama_masjid'] ?>" class="form-control">
             </div>
             <div class="form-group">
-                <label>Kab/Kota</label>
-                <select name="id_kota" class="form-control select2">
-                    <?php foreach ($kota as $key => $kota) { ?>
-                        <option value="<?= $kota['id'] ?>" <?= $kota['id'] == $setting['id_kota'] ? 'selected' : '' ?>><?= $kota['lokasi'] ?></option>
-                    <?php } ?>
-                </select>
             </div>
             <div class="form-group">
                 <label>Alamat</label>

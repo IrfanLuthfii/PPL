@@ -127,7 +127,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <footer class="main-footer">
             <!-- To the right -->
             <!-- Default to the left -->
-            <strong>Copyright &copy; <?= date('Y') ?> <a href="<?= base_url('home') ?>"><?= $web['nama_masjid'] ?></a>.</strong> <?= $web['alamat'] ?>.
+            
+            <div class="row">
+                <div class="col"><strong>Copyright &copy; <?= date('Y') ?> <a href="<?= base_url('home') ?>"><?= $web['nama_masjid'] ?></a>.</strong> <?= $web['alamat'] ?>.</div>
+                <div class="col" style="">
+                    <div class="row" style="display: flex;flex-direction:row-reverse;margin-bottom:-20px;"><p>Email : AlKhair@gmail.com</p></div>
+                    <div class="row"  style="display: flex;flex-direction:row-reverse"><p>Whatsapp : &nbsp; 081283746284</p></div>
+            </div>
+            </div>
         </footer>
     </div>
     <!-- ./wrapper -->

@@ -10,6 +10,7 @@ use App\Models\ModelKasPenghasilan;
 use App\Models\ModelKasSosial;
 use App\Models\ModelRekening;
 
+use App\Helpers\TelegramHelper;
 class Home extends BaseController
 {
     public function __construct()
@@ -27,13 +28,10 @@ class Home extends BaseController
     {
         $setting = $this->ModelAdmin->ViewSetting();
 
-        $url = 'https://api.myquran.com/v1/sholat/jadwal/' . $setting['id_kota'] . '/' . date('Y') . '/' . date('m') . '/' . date('d');
-        $waktu = json_decode(file_get_contents($url), true);
-
         $data = [
             'judul' => 'Home',
             'page' => 'v_home',
-            'waktu' => $waktu,
+            // 'waktu' => $waktu,
             'kas_m' => $this->ModelKasMasjid->AllData(),
             'kas_s' => $this->ModelKasSosial->AllData(),
             'kas_zm' => $this->ModelKasMal->AllData(),
@@ -48,19 +46,6 @@ class Home extends BaseController
             'judul' => 'Agenda',
             'page' => 'front-end/v_agenda',
             'agenda' => $this->ModelHome->Agenda(),
-        ];
-        return view('v_template', $data);
-    }
-
-    public function PesertaQurban()
-    {
-        $y = date('Y');
-        $m = $y - 579;
-
-        $data = [
-            'judul' => 'Peserta Qurban Tahun ' . $m . 'H / ' . date('Y') . 'M',
-            'page' => 'front-end/v_peserta_qurban',
-            'kelompok' => $this->ModelHome->AllDataKelompok(),
         ];
         return view('v_template', $data);
     }
@@ -153,7 +138,12 @@ class Home extends BaseController
                 'jenis_donasi' => $this->request->getPost('jenis_donasi'),
                 'bukti' => $nama_file,
                 'tgl' => date('Y-m-d'),
+                
             ];
+            $time = date('Y-m-d H:i:s');
+            $url = 'https://api.telegram.org/bot6457196603:AAFxpq7RIQwYLNdB-8Sqk6keGYFb4Uet4K8/sendMessage?chat_id=-4089032099&text=Ada+Transferan+Masuk!!!!!!+%0A%0ADonasi+:+'.$data['jenis_donasi'].'+%0AAtas+Nama+:+'.$data['nama_pengirim'].'%0AJumlah+:+Rp+'.number_format($data['jumlah'],0, ',','.') .'%0AMelalui+'. $data['nama_bank']. '%0ANo+Rek+:+' .$data['no_rek'].'%0A%0A' .$time.'&parse_mode=html';
+$response = file_get_contents($url);
+echo $response;
             $bukti->move('bukti', $nama_file);
             $this->ModelHome->InsertDonasi($data);
             if ($this->request->getPost('jenis_donasi') == "ZakatFitrah"){
@@ -165,6 +155,10 @@ class Home extends BaseController
                     'validasi' => 'tidak',
                     'status' => 'Masuk',
                 ];
+//                 $url = 'https://api.telegram.org/bot6457196603:AAFxpq7RIQwYLNdB-8Sqk6keGYFb4Uet4K8/sendMessage?chat_id=-4089032099&text=masuk+mas+ke+rekening+dari+'.$sosial['ket'].'+jumlahnya+Rp+'.$sosial['kas_masuk'].'+mas&parse_mode=html';
+// $response = file_get_contents($url);
+// echo $response;
+
                 $this->ModelKasSosial->InsertData($sosial);
                 session()->setFlashdata('pesan', 'Terima Kasih ! Bukti Transaksi Sudah Dikirim !!!');
                 return redirect()->to(base_url('Home/Donasi'));
@@ -211,8 +205,12 @@ class Home extends BaseController
            
             
            
-            
-
+            $token = '';
+            $chatId = '-4089032099';
+            $message = 'ada pesan masuk';
+    
+            // Use the TelegramHelper to send a message
+            TelegramHelper::sendMessage($token, $chatId, $message);
             session()->setFlashdata('pesan', 'Terima Kasih ! Bukti Transaksi Sudah Dikirim !!!');
             return redirect()->to(base_url('Home/Donasi'));
         } else {
